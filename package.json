@@ -1,0 +1,28 @@
+{
+  "name": "arkadium-sound",
+  "version": "1.0.0",
+  "description": "Implementation of Sound manager",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkadiumInc/html5-module-sound.git"
+  },
+  "keywords": [
+    "fsm",
+    "state machine"
+  ],
+  "author": "Arkadium Inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArkadiumInc/html5-module-sound/issues"
+  },
+
+  "homepage": "https://github.com/ArkadiumInc/html5-module-sound#readme",
+
+}

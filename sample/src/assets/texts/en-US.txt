@@ -1,0 +1,19 @@
+gameplay.ui.score=SCORE
+gameplay.button.gameEnd=The end
+gameplay.button.addScore=Add score
+gameplay.ui.nextRespawn=NEXT
+help.button.back=BACK
+gameEnd.title=GREAT JOB!
+gameEnd.score=YOUR SCORE
+gameEnd.button.playAgain=PLAY AGAIN
+startScreen.button.play=PLAY
+startScreen.button.sound=Play SFX
+startScreen.button.music=Play music
+startScreen.button.mute=Mute
+startScreen.button.unmute=Unmute
+
+help.showOnStartup=Show on startup
+help.page1=help page 1 text. help page 1 text.
+help.page2=help page 2 text.
+help.page3=help page 3 text. help page 3 text.
+help.page4=help page 4 text.

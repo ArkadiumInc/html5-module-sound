@@ -1,0 +1,45 @@
+{
+  "name": "sound-module-sample",
+  "description": "Sound Module sample app",
+  "readme": "",
+  "repository": "",
+  "version": "1.0.0",
+  "devDependencies": {
+    "bower": "1.3.12",
+    "browserify": "8.1.3",
+    "gulp": "^3.8.11",
+    "gulp-concat": "2.5.0",
+    "gulp-connect": "2.2.0",
+    "gulp-download": "0.0.1",
+    "gulp-if": "1.2.5",
+    "gulp-jshint": "1.9.2",
+    "gulp-minify-css": "0.4.5",
+    "gulp-minify-html": "0.1.8",
+    "gulp-processhtml": "1.0.2",
+    "gulp-rename": "1.2.0",
+    "gulp-rimraf": "0.1.1",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "1.1.0",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "4.1.1",
+    "run-sequence": "^1.0.2",
+    "tiny-lr": "0.1.5",
+    "vinyl-source-stream": "1.0.0",
+    "watchify": "2.3.0"
+  },
+  "scripts": {
+    "post-install": "node ./node_modules/bower/bin/bower install",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js build"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.2-5",
+    "jszip": "^2.4.0",
+    "strip-bom": "^1.0.0",
+    "arkadium-eventbus": "1.0.1",
+    "arkadium-fsm": "1.0.0",
+    "arkadium-panelmanager": "1.0.0",
+    "arkadium-gui-builder": "1.0.0",
+    "xml": "git+https://github.com/bdunford/xml.git"
+  }
+}

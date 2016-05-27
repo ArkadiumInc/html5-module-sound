@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game Template</title>
+
+    <!-- Set dimensions, accounting for device pixel ratio -->
+    <script type="text/javascript">
+        document.write('<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no,minimal-ui=1">');
+    </script>
+
+
+    <script>
+         if (!window.console) { window.console = {}; }
+         var methods = ["log", "debug", "warn", "info"];
+         for (var i=0;i<methods.length;i++) {
+             console[methods[i]] = function(){};
+         }
+    </script>
+
+    <!-- Amplitude analytics -->
+
+    <script type="text/javascript">
+        (function(e,t){var n=e.amplitude||{_q:[]};var r=t.createElement("script");r.type="text/javascript";
+            r.async=true;r.src="https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-2.9.1-min.gz.js";
+            r.onload=function(){e.amplitude.runQueuedFunctions()};var i=t.getElementsByTagName("script")[0];
+            i.parentNode.insertBefore(r,i);var s=function(){this._q=[];return this};function o(e){
+                s.prototype[e]=function(){this._q.push([e].concat(Array.prototype.slice.call(arguments,0)));
+                    return this}}var a=["add","append","clearAll","prepend","set","setOnce","unset"];for(var c=0;c<a.length;c++){
+                o(a[c])}n.Identify=s;var u=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties"];
+            function p(e){function t(t){e[t]=function(){e._q.push([t].concat(Array.prototype.slice.call(arguments,0)));
+            }}for(var n=0;n<u.length;n++){t(u[n])}}p(n);e.amplitude=n})(window,document);
+
+        amplitude.init("d52f40ed8fd3e0374f6bad93ec00196b");
+    </script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','_gameGATracker');
+    </script>
+
+    <!-- Riveted Analytics - helps measure visit duration more accurately -->
+    <script src="js/libs/riveted.min.js"></script>
+    <script>riveted.init();</script>
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+<img src="assets/preloader.gif" id="preloaderGIF" class="gif-preloader">
+<div id="swiffycontainer" class="visible"></div>
+<div id="templateGame" class="game"></div>
+
+<script src="js/libs/jquery-1.8.2.min.js"></script>
+<script src="js/libs/phaser.js"></script>
+
+<script src="js/libs/detect.min.js"></script>
+<script src="js/libs/arena-api-1.2.2.js"></script>
+<script src="js/libs/ark-i18n-1.0.js"></script>
+<script src="js/libs/runtime-swiffy-v5.0.js"></script>
+<script src="main.min.js"></script>
+
+</body>
+</html>
