@@ -8,7 +8,7 @@ var EventBusConstants = require('../../EventBusConstants');
 
 var ShowTransitionMovement = require('arkadium-panelmanager').ShowTransitionMovement;
 var SoundConstants = require('../../SoundConstants');
-var SoundManager = require('../../../core/sound/SoundManager');
+var SoundManager = require('arkadium-sound').SoundManager;
 
 var LevitatedButton = function (game, textureNameNormal, textureNamePressed, textureNameOver, onPressCallback, callbackContext, fontName, fontSize, text, textYOffset, fireCallbackOnDownPosition)
 {

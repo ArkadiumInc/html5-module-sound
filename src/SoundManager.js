@@ -9,7 +9,10 @@
  */
 var SoundManager = function () {
     'use strict';
+
 };
+
+module.exports = SoundManager;
 
 SoundManager.instance = new SoundManager();
 

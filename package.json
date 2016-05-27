@@ -1,6 +1,6 @@
 {
   "name": "arkadium-sound",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implementation of Sound manager",
   "main": "index.js",
   "directories": {

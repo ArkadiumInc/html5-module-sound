@@ -3,7 +3,8 @@ var GameSettings = require('../GameSettings');
 var GameContextConstants = require('../GameContextConstants');
 var AssetsHelper = require('./AssetsHelper');
 var SoundConstants = require('../SoundConstants');
-var SoundManager = require('../../core/sound/SoundManager');
+var SoundModule = require('arkadium-sound');
+var SoundManager = SoundModule.SoundManager;
 var FontConstants = require('../FontConstants');
 var TextConstants = require('../TextConstants');
 
@@ -48,6 +49,7 @@ MenuScene.prototype = {
             this.load.audio(SoundConstants.SoundNames.SFX_GAMEEND, AssetsHelper.getPathToSoundAsset('bgm_gameOver.mp3'), true);
 
         }
+        console.log('---SOUNDMANAGER='+SoundManager);
         SoundManager.instance.init(this.game, 3);
 
         this._loadingProgress = 0.01;
