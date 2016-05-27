@@ -40,7 +40,7 @@
     "arkadium-fsm": "1.0.0",
     "arkadium-panelmanager": "1.0.0",
     "arkadium-gui-builder": "1.0.0",
-    "arkadium-sound": "1.0.0",
+    "arkadium-sound": "1.0.1",
     "xml": "git+https://github.com/bdunford/xml.git"
   }
 }
